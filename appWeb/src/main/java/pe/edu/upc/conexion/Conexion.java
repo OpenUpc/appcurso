@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 
 public class Conexion {
 	protected static Connection oCn;
-	//Data Express 2
+	//Data Express 30000
 
 	public static Connection AbrirConexion() {
 		if (oCn != null) {
